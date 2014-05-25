@@ -26,5 +26,11 @@ namespace ProyectoFinalSmithJones
         {
             new VentanaBoton1().ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //cierra la aplicación
+            Application.ExitThread();
+        }
     }
 }
