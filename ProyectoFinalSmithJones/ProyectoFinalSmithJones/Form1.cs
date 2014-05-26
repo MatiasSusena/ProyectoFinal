@@ -19,7 +19,9 @@ namespace ProyectoFinalSmithJones
 
         private void button2_Click(object sender, EventArgs e)
         {
-           new  VentanaBoton2().ShowDialog();
+
+            new Form2().ShowDialog();
+          // new  VentanaBoton2().ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
