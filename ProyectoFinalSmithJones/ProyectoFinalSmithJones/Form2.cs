@@ -36,7 +36,7 @@ namespace ProyectoFinalSmithJones
             //msqlCommand.Connection = this.msqlConnection;
 
             //define the command text
-            msqlCommand.CommandText = "SELECT * FROM liga.equipos;";
+            //msqlCommand.CommandText = "SELECT * FROM liga.equipos;";
             try
             {
                 cnx.Open();
