@@ -19,7 +19,9 @@ namespace ProyectoFinalSmithJones
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            //cierra el formulario
+            Close();
+
         }
 
         private void label11_Click(object sender, EventArgs e)
