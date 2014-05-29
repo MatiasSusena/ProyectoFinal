@@ -99,9 +99,9 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(18, 260);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
+            this.label8.Size = new System.Drawing.Size(40, 13);
             this.label8.TabIndex = 61;
-            this.label8.Text = "Altura";
+            this.label8.Text = "Altura :";
             // 
             // textBox7
             // 
@@ -115,9 +115,9 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(18, 236);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 13);
+            this.label9.Size = new System.Drawing.Size(46, 13);
             this.label9.TabIndex = 59;
-            this.label9.Text = "Equipo";
+            this.label9.Text = "Equipo :";
             // 
             // textBox6
             // 
@@ -132,18 +132,18 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(18, 211);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(39, 13);
+            this.label10.Size = new System.Drawing.Size(45, 13);
             this.label10.TabIndex = 57;
-            this.label10.Text = "Salario";
+            this.label10.Text = "Salario :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(18, 186);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(58, 13);
+            this.label11.Size = new System.Drawing.Size(64, 13);
             this.label11.TabIndex = 56;
-            this.label11.Text = "Fecha Alta";
+            this.label11.Text = "Fecha Alta :";
             // 
             // textBox4
             // 
@@ -157,9 +157,9 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(18, 162);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(55, 13);
+            this.label12.Size = new System.Drawing.Size(61, 13);
             this.label12.TabIndex = 54;
-            this.label12.Text = "Id Capitan";
+            this.label12.Text = "Id Capitan :";
             // 
             // textBox3
             // 
@@ -173,9 +173,9 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(18, 138);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(40, 13);
+            this.label13.Size = new System.Drawing.Size(46, 13);
             this.label13.TabIndex = 52;
-            this.label13.Text = "Puesto";
+            this.label13.Text = "Puesto :";
             // 
             // textBox2
             // 
@@ -189,9 +189,9 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(18, 113);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(44, 13);
+            this.label14.Size = new System.Drawing.Size(50, 13);
             this.label14.TabIndex = 50;
-            this.label14.Text = "Apellido";
+            this.label14.Text = "Apellido :";
             // 
             // textBox1
             // 
@@ -205,9 +205,9 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(18, 88);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(44, 13);
+            this.label15.Size = new System.Drawing.Size(50, 13);
             this.label15.TabIndex = 48;
-            this.label15.Text = "Nombre";
+            this.label15.Text = "Nombre :";
             // 
             // VentanaBoton2
             // 
