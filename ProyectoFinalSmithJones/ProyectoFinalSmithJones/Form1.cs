@@ -17,18 +17,20 @@ namespace ProyectoFinalSmithJones
             InitializeComponent();
         }
 
+        //boton Mati
         private void button2_Click(object sender, EventArgs e)
         {
-
-            new Form2().ShowDialog();
-          // new  VentanaBoton2().ShowDialog();
+            
+        new  VentanaBoton2().ShowDialog();
         }
 
+        //boton Adri
         private void button1_Click(object sender, EventArgs e)
         {
             new VentanaBoton1().ShowDialog();
         }
 
+       //Boton Cerrar
         private void button3_Click(object sender, EventArgs e)
         {
             //cierra la aplicación
