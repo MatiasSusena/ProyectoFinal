@@ -89,6 +89,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VentanaBoton1.resx">
+      <DependentUpon>VentanaBoton1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VentanaBoton2.resx">
       <DependentUpon>VentanaBoton2.cs</DependentUpon>
     </EmbeddedResource>
