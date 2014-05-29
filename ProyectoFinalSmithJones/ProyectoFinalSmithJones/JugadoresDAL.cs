@@ -10,6 +10,8 @@ namespace ProyectoFinalSmithJones
     public class JugadoresDAL
     {
 
+        //en esta clase hemos definido el metodo para agregar un jugador a la tabla
+        //lo que graba en la tabla
         public static int Agregar(Jugador pJugador)
         {
 
@@ -22,15 +24,16 @@ namespace ProyectoFinalSmithJones
             return retorno;
         }
 
-
+        //aquí hace una busqueda respecto al nombre para cargarla en un Array
         public static List<Jugador> Buscar(string pNombre, string pApellido)
 
         {
-
+            //crea un array
            List<Jugador> _lista = new List<Jugador>();
 
                MySqlCommand _comando = new MySqlCommand(String.Format(
 
+                //el resultado de esta consulta se almacena en el array _lista
               "SELECT id_jugador, nombre, apellido, puesto, salario, altura FROM Jugadores1 WHERE nombre ='{0}' or apellido='{1}'", pNombre, pApellido), BD_Conexion.BD_Conectar());
                MySqlDataReader _reader = _comando.ExecuteReader();
                while (_reader.Read())
@@ -49,10 +52,11 @@ namespace ProyectoFinalSmithJones
            return _lista;
         }
 
+        //este metodo conecta y obtiene un jugador en concreto
         public static Jugador ObtenerJugadores(int pId)
         {
             Jugador pJugador  = new Jugador();
-            // MySqlConnection conexion = BD_Conexion.BD_Conectar();
+            
             MySqlCommand _comando = new MySqlCommand(String.Format(
                 "SELECT id_jugador, nombre, apellido, puesto, salario, altura FROM Jugadores1 WHERE id_jugador={0}", pId), BD_Conexion.BD_Conectar());
             MySqlDataReader _reader = _comando.ExecuteReader();
@@ -66,7 +70,7 @@ namespace ProyectoFinalSmithJones
                 pJugador.salario = _reader.GetInt32(4);
                 pJugador.altura = _reader.GetDouble(5);
             }
-            // conexion.Close();
+            
             BD_Conexion.BD_Conectar().Close();
 
             return pJugador  ;

@@ -4,6 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//jugador es una clase donde se especifican los datos a guardar y los metodos que voy a utilizar.
+
+//get sirve para leer la info
+//set sirve para volcarla en la tabla
+
 namespace ProyectoFinalSmithJones
 {
     public class Jugador
@@ -25,9 +31,11 @@ namespace ProyectoFinalSmithJones
         {
         }
 
+        //definimos los campos que va a llevar jugador
         public Jugador(int pid_jugador, string pnombre, string papellido, string ppuesto, int pid_capitan, string pfecha_alta,
             int psalario, int pequipo, double paltura)
         {
+            //le decimos que almacene el valor primero en el segundo
             this.id_jugador = pid_jugador;
             this.nombre = pnombre;
             this.apellido = papellido;
